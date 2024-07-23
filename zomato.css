@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    font-family: "Metrophobic", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(235, 229, 229, 0);
+    color: #e94646;
+    align-items:center;
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    margin-top: 10px;
+
+}
+ul li i{
+    color: black;
+    margin-right: 5px;
+}
+
+
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right:50px ;
+    align-items: center;
+    /* box-shadow: #e94646; */
+}
+ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(197, 76, 28);
+    scale: 1.1;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+ul li span{
+    position: absolute;
+    color: gold;
+    font-size: 10px;
+    /* margin-left: 5px; */
+}
+main{
+
+    border-bottom: black 3px solid;
+}
+.mid {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,245,245,1) 0%);
+    width: 80%;
+    margin: auto;
+    
+}
+.sub{
+    width: 80%;
+    margin: auto;
+}
+.sub h2{
+    font-size: 2rem;
+    font-weight: bolder ;
+}
+.food{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food1{
+    display: flex;
+    justify-content:space-between;
+    /* border: 2px solid black; */
+    width: 50%;
+}
+.cont{
+    width:80%;
+    border-radius: 50%;
+    scale: 1;
+    box-shadow: 6px 6px 10px black;
+    
+    
+}
+.on{
+    width: 100%;
+}
+.on:hover{
+    scale: 1.1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.one img{
+border-radius: 15px;
+
+
+}
+.sub{
+    margin-top: 40px;
+}
+.sub1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    text-align:left;
+}
+.sub1 h3:hover{
+    cursor: pointer;
+    /* scale: 0.9; */
+    text-decoration: underline;
+}
+.foods i{
+    color: rgb(24, 134, 9);
+    margin-right: 10px;
+}
+.one h3{
+    font-size: 1.7rem;
+}
+.one h4{
+    color: rgb(53, 43, 43) ;
+}
+.one p{
+    color: gray;
+    font-size: 0.8rem;
+}
+.one:hover{
+    scale: 0.95;
+    cursor: pointer;
+}
+.ex{
+    background-color: whitesmoke;
+}
+.exp{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    padding: 10px;
+    align-items: start;
+   
+    font-weight: 100;
+    width: 50%;
+    margin: auto;
+}
+.exp h3{
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.exp1{
+    display: flex;
+}
+button{
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 30px;
+    align-items: center;
+    text-align: left;
+    width: 40%;
+    border: none;
+    border-radius: 10%;
+}
+button p{
+    font-size: 0.45rem;
+}
+button span{
+    font-size: 0.6rem;
+}
+button i{
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+button:hover{
+    scale: 1.1;
+}
+
+span{
+font-weight: 900;
+}
+.base{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    color: #fff;
+    width: 70%;
+}
+.base p{
+    font-weight:lighter;
+    font-size: 0.65rem;
+}
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.p{
+    margin-bottom: 150px;
+}
+.base p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.base h3{
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.end1{
+    text-align: center;
+}
+.ham{
+    display: none;
+}
+.foot{
+    background-color: black;
+}
+@media (max-width: 600px) {
+    .food{
+        width: 100%;
+        font-weight: 100;
+       font-size: small;
+       display: flex;
+       flex-direction: column;
+    }
+    .food1{
+        width: 90%;
+    }
+    
+    .one{
+      border: none solid gray;
+      margin-top: 20px;
+      box-shadow: 5px 5px 5px 5px #e4cece ;
+      border-radius: 10%;
+      text-align:center;
+    }
+    .one img{
+        width: 100%;
+        border-radius: 10% 10% 0% 0%;
+    }
+    .one:hover{
+        cursor: pointer;
+        scale: 1;
+
+    }
+    .ham{
+        display: flex;
+    }
+    .ham:hover{
+        cursor: pointer;
+        scale: 1.1;
+    }
+  
+    .sub1 {
+       display: flex;
+       flex-direction: column;
+       margin-top: 0;
+    }
+    .exp{
+        display: flex;
+        flex-direction: column;
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .end1{
+        text-align: center;
+    }
+   
+    .menu{
+        display: none;
+    }
+    .p{
+        margin-bottom: 0;
+    }
+}
+  
